@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7a10e726:178f59014d4:-7fe6</id>
-  <name>nutzungsplanung_grundnutzung_2</name>
-  <nativeName>nutzungsplanung_grundnutzung</nativeName>
+  <id>FeatureTypeInfoImpl--21c3550c:1790459d77f:-7fe1</id>
+  <name>ch.so.arp.nutzungsplanung.wald.hecken_feldgehoelz_ufergehoelz</name>
+  <nativeName>nutzungsplanung_ueberlagernd_flaeche</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7a10e726:178f59014d4:-7ffe</id>
   </namespace>
-  <title>nutzungsplanung_grundnutzung_2</title>
+  <title>Hecken, Feldgehölze und Ufergehölze</title>
   <keywords>
     <string>features</string>
-    <string>nutzungsplanung_grundnutzung</string>
+    <string>nutzungsplanung_ueberlagernd_flaeche</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;CH1903+ / LV95&quot;, 
   GEOGCS[&quot;CH1903+&quot;, 
@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4150&quot;]], 
-  PROJECTION[&quot;Oblique_Mercator&quot;], 
+  PROJECTION[&quot;Oblique_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9815&quot;]], 
   PARAMETER[&quot;longitude_of_center&quot;, 7.439583333333333], 
   PARAMETER[&quot;latitude_of_center&quot;, 46.952405555555565], 
   PARAMETER[&quot;azimuth&quot;, 90.0], 
@@ -50,11 +50,16 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--7a10e726:178f59014d4:-7ffd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <cqlFilter>typ_kt = &apos;N592_Hecken_Feldgehoelz_Ufergehoelz&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

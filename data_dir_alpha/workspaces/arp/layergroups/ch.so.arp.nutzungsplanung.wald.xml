@@ -1,7 +1,7 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--21c3550c:1790459d77f:-7fc0</id>
   <name>ch.so.arp.nutzungsplanung.wald</name>
-  <mode>SINGLE</mode>
+  <mode>OPAQUE_CONTAINER</mode>
   <title>Wald (Nutzungsplanung)</title>
   <workspace>
     <id>WorkspaceInfoImpl--7a10e726:178f59014d4:-7fff</id>
@@ -42,5 +42,5 @@
     <crs class="projected">EPSG:2056</crs>
   </bounds>
   <dateCreated>2021-04-24 17:21:07.75 UTC</dateCreated>
-  <dateModified>2021-04-24 17:45:22.648 UTC</dateModified>
+  <dateModified>2021-04-25 17:13:59.226 UTC</dateModified>
 </layerGroup>

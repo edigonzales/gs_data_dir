@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--21c3550c:1790459d77f:-7fc0</id>
+  <id>LayerGroupInfoImpl-5747d806:17909b6e3cb:-7fe5</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>arp:ch.so.arp.nutzungsplanung.wald</name>
+  <name>arp:ch.so.arp.nutzungsplanung.ortsbildschutz</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>

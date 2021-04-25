@@ -1,11 +1,11 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--21c3550c:1790459d77f:-7fc0</id>
+  <id>LayerInfoImpl-5747d806:17909b6e3cb:-7fe9</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>arp:ch.so.arp.nutzungsplanung.wald</name>
+  <name>arp:ch.so.arp.nutzungsplanung.ortsbildschutz.flaechenobjekte</name>
   <mimeFormats>
-    <string>image/png</string>
     <string>image/jpeg</string>
+    <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
@@ -21,6 +21,13 @@
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
-  <parameterFilters/>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>arp:ch.so.arp.nutzungsplanung.ortsbildschutz.flaechenobjekte</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
   <gutter>0</gutter>
 </GeoServerTileLayer>

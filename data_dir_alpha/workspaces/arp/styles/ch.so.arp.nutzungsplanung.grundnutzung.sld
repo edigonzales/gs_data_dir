@@ -1137,6 +1137,496 @@
             </se:Fill>
           </se:PolygonSymbolizer>
         </se:Rule>
+
+        <se:Rule>
+          <se:Name>Wohnzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Wohnzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>11</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ff9900</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Arbeitszonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Arbeitszonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>12</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ffccff</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Mischzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Mischzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#f4a49f</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Kernzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Kernzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>14</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#cc9966</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Zonen für öffentliche Nutzungen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Zonen für öffentliche Nutzungen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#cccccc</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>eingeschränkte Bauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>eingeschränkte Bauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>16</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#7eff31</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Tourismus- und Freizeitzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Tourismus- und Freizeitzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>17</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#cb99ff</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Verkehrszonen innerhalb der Bauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Verkehrszonen innerhalb der Bauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>18</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#fafafa</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>weitere Bauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>weitere Bauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>19</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#9999ff</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>allgemeine Landwirtschaftzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>allgemeine Landwirtschaftzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>21</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ffffcc</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Rebbauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Rebbauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>23</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ffff66</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Speziallandwirtschaftszonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Speziallandwirtschaftszonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>22</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ffff99</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>weitere Landwirtschaftszonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>weitere Landwirtschaftszonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>29</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ffff66</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Schutzzonen für Lebensräume und Landschaften (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Schutzzonen für Lebensräume und Landschaften (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>31</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#4dff73</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Zonen für Gewässer und ihre Ufer (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Zonen für Gewässer und ihre Ufer (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>32</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#00ccff</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>weitere Schutzzonen ausserhalb der Bauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>weitere Schutzzonen ausserhalb der Bauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>39</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#4dff73</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Zonen für Kleinsiedlung (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Zonen für Kleinsiedlung (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>41</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#f2cc73</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Verkehrsflächen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Verkehrsflächen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>42</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#fafafa</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Reservezonen nach Art. 18 Abs. 2 RPG (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Reservezonen nach Art. 18 Abs. 2 RPG (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>43</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#e6e6e6</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Wald (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>Wald (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>44</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ccffcc</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>weitere Zonen nach Art. 18 Abs. 1 RPG ausserhalb der Bauzonen (1:19'000)</se:Name>
+          <se:Description>
+            <se:Title>weitere Zonen nach Art. 18 Abs. 1 RPG ausserhalb der Bauzonen (1:19'000)</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:Function name="strSubstring">
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:Function>
+              <ogc:Literal>49</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>19000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#ccffff</se:SvgParameter>
+            </se:Fill>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+
+
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

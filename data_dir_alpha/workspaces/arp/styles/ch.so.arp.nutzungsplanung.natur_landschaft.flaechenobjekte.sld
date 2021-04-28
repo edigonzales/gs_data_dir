@@ -96,7 +96,7 @@
             <se:VendorOption name="random-seed">1</se:VendorOption>
             <se:VendorOption name="random">grid</se:VendorOption>
             <se:VendorOption name="random-tile-size">100</se:VendorOption>
-            <se:VendorOption name="random-rotation">grid</se:VendorOption>
+            <se:VendorOption name="random-rotation">none</se:VendorOption>
             <se:VendorOption name="random-symbol-count">50</se:VendorOption>
           </se:PolygonSymbolizer>
         </se:Rule>
@@ -129,7 +129,7 @@
             <se:VendorOption name="random-seed">0</se:VendorOption>
             <se:VendorOption name="random">grid</se:VendorOption>
             <se:VendorOption name="random-tile-size">100</se:VendorOption>
-            <se:VendorOption name="random-rotation">grid</se:VendorOption>
+            <se:VendorOption name="random-rotation">none</se:VendorOption>
             <se:VendorOption name="random-symbol-count">50</se:VendorOption>
           </se:PolygonSymbolizer>
         </se:Rule>

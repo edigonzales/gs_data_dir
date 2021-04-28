@@ -9,6 +9,16 @@ java -jar /Users/stefan/apps/ili2pg-4.4.6/ili2pg-4.4.6.jar --dbhost localhost --
 ```
 
 ```
+java -jar /Users/stefan/apps/ili2pg-4.4.6/ili2pg-4.4.6.jar --dbhost localhost --dbport 54321 --dbdatabase pub --dbusr admin --dbpwd admin \
+--dbschema arp_richtplan_pub --models SO_ARP_Richtplan_Publikation_20210210 \
+--defaultSrsCode 2056 --createGeomIdx --createFk --createFkIdx --createUnique --createEnumTabs --beautifyEnumDispName --createMetaInfo --createNumChecks --nameByTopic --strokeArcs \
+--disableValidation \
+--doSchemaImport --import /Users/stefan/Downloads/ch.so.arp.richtplan_xtf/ch.so.arp.richtplan.xtf
+```
+
+
+```
 export GEOSERVER_DATA_DIR=/Users/stefan/sources/gs_data_dir/data_dir_alpha
 ./startup.sh
 ```
+

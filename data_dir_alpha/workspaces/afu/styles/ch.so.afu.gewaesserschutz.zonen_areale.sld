@@ -218,6 +218,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:GraphicFill>

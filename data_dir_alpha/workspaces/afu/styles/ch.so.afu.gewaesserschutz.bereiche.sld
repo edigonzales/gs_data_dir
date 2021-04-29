@@ -17,7 +17,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>600000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:GraphicFill>
@@ -55,7 +55,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>600000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#ff3232</se:SvgParameter>
@@ -79,7 +79,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>600000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#ffa5a5</se:SvgParameter>

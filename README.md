@@ -18,7 +18,7 @@ java -jar /Users/stefan/apps/ili2pg-4.4.6/ili2pg-4.4.6.jar --dbhost localhost --
 
 ```
 java -jar /Users/stefan/apps/ili2pg-4.4.6/ili2pg-4.4.6.jar --dbhost localhost --dbport 54322 --dbdatabase pub --dbusr admin --dbpwd admin \
---dbschema arp_gewaesserschutz_pub --models SO_AfU_Gewaesserschutz_Publikation_20210303 \
+--dbschema afu_gewaesserschutz_pub --models SO_AfU_Gewaesserschutz_Publikation_20210303 \
 --defaultSrsCode 2056 --createGeomIdx --createFk --createFkIdx --createUnique --createEnumTabs --beautifyEnumDispName --createMetaInfo --createNumChecks --nameByTopic --strokeArcs \
 --disableValidation \
 --doSchemaImport --import /Users/stefan/Downloads/ch.so.afu.gewaesserschutz_xtf/ch.so.afu.gewaesserschutz.xtf

@@ -15,3 +15,11 @@ geoserver/foo/25921227_12_5cm_137_020.tif : 38912|278528-->2048-1472
 ERROR 4: geoserver/foo/25921227_12_5cm_001_001.tif: No such file or directory
 Error opening: <class 'NameError'>
 ```
+
+```
+gdal_retile.py -v -r bilinear -levels 6 -co "photometric=ycbcr" -ps 4096 4096 -s_srs EPSG:2056 -co "TILED=YES" -co "COMPRESS=JPEG" -targetDir geoserver/ch.swisstopo.swissimage_2018.rgb/ ch.swisstopo.swissimage_2018.rgb/ch.swisstopo.orthofoto_2018.rgb.vrt
+```
+
+```
+gdal_retile.py -v -r bilinear -levels 6 -ps 4096 4096 -s_srs EPSG:2056 -co "TILED=YES" -co "COMPRESS=JPEG" -targetDir geoserver/ch.so.agi.lidar_2019.dtm_hillshade/ ch.so.agi.lidar_2019.dtm_hillshade/ch.so.agi.lidar_2019.dtm_hillshade.vrt
+```

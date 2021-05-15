@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "sogis/ubuntu-gdal-3.0"
 
-  config.vm.synced_folder "/Volumes/Samsung_T5/", "/Volumes/Samsung_T5/"
+  #config.vm.synced_folder "/Volumes/Samsung_T5/", "/Volumes/Samsung_T5/"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
